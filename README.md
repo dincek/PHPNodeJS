@@ -5,7 +5,7 @@ PHP Node JS wrapper. PHP class that brings executing JavaScript inside PHP - wra
 
 Requirements
 ------------
-- NodeJS (>= v0.10.10, maybe it works with older version, never tested, there must binary "node" that you can run via CLI)
+- NodeJS (>= v0.10.10, maybe it works with older version, never tested, there must be binary file "node" on server / computer where you execute script)
 
 Initialize
 ----------
