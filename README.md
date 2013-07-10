@@ -11,11 +11,14 @@ We think that this solution could be used for many other things so we published 
 Requirements
 ------------
 - [NodeJS]("http://nodejs.org/", "NodeJS") (>= v0.10.10, maybe it works with older version (never tested, you are welcome to test and report if it works or not), there must be binary file "node" on server / computer where you execute script)
+- If you want to use JavaScript function that uses jQuery you need to install jquery for NodeJS via NPM (in directory where 
+PHPNodeJS.php is located in your project, you need to run command in CLI: `npm install jquery`
 
 Initialize
 ----------
 ```
 include_once dirname(__FILE__) . '/PHPNodeJS.php';
+// if $debug = true all of debug messages will be shown, otherwise not
 $debug = true;
 $PHPNodeJS = new PHPNodeJS($debug);
 ```
