@@ -3,7 +3,7 @@ PHPNodeJS
 
 PHP Node JS wrapper (PHP class that brings executing JavaScript inside PHP - wrapper for NodeJS CLI)
 
-[code]
+<blockquote>
 $PHPNodeJS = new PHPNodeJS($debug);
 
 // example 1 (run simple script without function)
@@ -29,4 +29,4 @@ console.log(data);
 });
 return "";
 }', 'test', array('http://www.videodeck.net'), true);
-[/code]
+</blockquote>
