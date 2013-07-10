@@ -3,6 +3,14 @@
 /**
  * PHP Node JS integration class
  * 
+ * @abstract Class is wrapper for executing JavaScript via NodeJS command line ("node")
+ * @link https://github.com/dincek/PHPNodeJS/
+ * @author Dean Gostiša <dean@black.si>
+ * @access public
+ * @license http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+ * @copyright (c) 2013, Dean Gostiša
+ * @version 1.0
+ * @example PHPNodeJSExample.php Examples for using this class
  */
 class PHPNodeJS {
 
