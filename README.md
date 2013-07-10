@@ -10,7 +10,7 @@ We think that this solution could be used for many other things so we published 
 
 Requirements
 ------------
-- NodeJS (>= v0.10.10, maybe it works with older version, never tested, there must be binary file "node" on server / computer where you execute script)
+- [NodeJS]("http://nodejs.org/", "NodeJS") (>= v0.10.10, maybe it works with older version (never tested, you are welcome to test and report if it works or not), there must be binary file "node" on server / computer where you execute script)
 
 Initialize
 ----------
@@ -59,3 +59,6 @@ echo $PHPNodeJS->run('
   }',
   'test', array('http://www.videodeck.net'), true);
 ```
+License
+-------
+This project is licensed under [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)]("http://creativecommons.org/licenses/by-sa/3.0/", "CC BY-SA 3.0"). You are welcome to contribute to this project or fork this product but we would be very that you keep reference to this original project.
