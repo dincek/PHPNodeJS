@@ -61,4 +61,5 @@ echo $PHPNodeJS->run('
 ```
 License
 -------
-This project is licensed under [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)]("http://creativecommons.org/licenses/by-sa/3.0/", "CC BY-SA 3.0"). You are welcome to contribute to this project or fork this product but we would be very that you keep reference to this original project.
+This project is licensed under [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)]("http://creativecommons.org/licenses/by-sa/3.0/", "CC BY-SA 3.0"). You are welcome to contribute to this project or 
+fork this product but we would be very happy that you keep reference to this original project.
