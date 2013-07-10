@@ -40,7 +40,8 @@ Example 3
 ---------
 Run script that uses jQuery as dependcy
 ```
-echo $PHPNodeJS->run('function test(url) {
+echo $PHPNodeJS->run('
+  function test(url) {
    jQuery.get(url, function(data) {
      console.log(data);
    });
