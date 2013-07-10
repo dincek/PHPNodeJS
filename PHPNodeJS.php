@@ -58,7 +58,7 @@ class PHPNodeJS {
         $this->PHPNodeJSWrapper = $tmpFile . '.js';
         $this->SetJSWrapper($jQuery);
         for ($i = 0; $i < count($args); $i++) {
-            $args[$i] = '"' . $args[$i] . '"';
+            $args[$i] = escapeshellarg($args[$i]);
         }
         if ($this->debug) {
             self::DebugMsg('Running Javascript with parameters:');
