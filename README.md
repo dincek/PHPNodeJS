@@ -1,7 +1,12 @@
 PHPNodeJS
 =========
 
-PHP Node JS wrapper. PHP class that brings executing JavaScript inside PHP - wrapper for NodeJS CLI.
+PHP Node JS wrapper - PHP class that brings JavaScript executing inside PHP - wrapper for NodeJS CLI.  
+  
+This class was made that we can use JavaScript based validators of tasks (interacitve tasks) for competition system Bober (programming competition). 
+JavaScript server execution enables us to protect to correct solution for tasks.  
+  
+We think that this solution could be used for many other things so we published this wrapper online, so you can review it, test it and make it better.
 
 Requirements
 ------------
