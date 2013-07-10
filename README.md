@@ -3,13 +3,16 @@ PHPNodeJS
 
 PHP Node JS wrapper. PHP class that brings executing JavaScript inside PHP - wrapper for NodeJS CLI.
 
+Requirements
+------------
+- NodeJS (>= v0.10.10, maybe it works with older version, never tested, there must binary "node" that you can run via CLI)
+
 Initialize
 ----------
 ```
-<?php
-  include_once dirname(__FILE__) . '/PHPNodeJS.php';
-  $debug = true;
-  $PHPNodeJS = new PHPNodeJS($debug);
+include_once dirname(__FILE__) . '/PHPNodeJS.php';
+$debug = true;
+$PHPNodeJS = new PHPNodeJS($debug);
 ```
 
 Example 1
@@ -17,9 +20,10 @@ Example 1
 Run simple script without function
 ```
 echo $PHPNodeJS->run('
-   var var1 = 10;
-   var var2 = 20;
-   console.log(var1+var2);');
+  var var1 = 10;
+  var var2 = 20;
+  console.log(var1+var2);
+');
 ```
 
 Example 2 
@@ -33,7 +37,8 @@ echo $PHPNodeJS->run('
     } else {
       return false;
     }
-  }', 'test', array('3', '20'));
+  }',
+  'test', array('3', '20'));
 ```
 
 Example 3
@@ -46,5 +51,6 @@ echo $PHPNodeJS->run('
      console.log(data);
    });
    return "";
-  }', 'test', array('http://www.videodeck.net'), true);
+  }',
+  'test', array('http://www.videodeck.net'), true);
 ```
