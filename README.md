@@ -14,6 +14,17 @@ Requirements
 - If you want to use JavaScript function that uses jQuery you need to install jquery for NodeJS via NPM (in directory where 
 PHPNodeJS.php is located in your project, you need to run command in CLI: `npm install jquery`
 
+Installation
+------------
+For mac users no changes required, for windows users change this code on line 34
+```
+$this->NodePath = trim(shell_exec('which node'));
+```
+with this
+```
+$this->NodePath = trim(shell_exec('what node'));
+```
+
 Initialize
 ----------
 ```
