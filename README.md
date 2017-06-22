@@ -22,7 +22,7 @@ $this->NodePath = trim(shell_exec('which node'));
 ```
 with this
 ```
-$this->NodePath = trim(shell_exec('what node'));
+$this->NodePath = trim(shell_exec('where node'));
 ```
 
 Initialize
